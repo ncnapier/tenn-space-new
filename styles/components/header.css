@@ -1,14 +1,30 @@
 .header, .header__menu-main {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
     position: relative;
     z-index: 9999;
+    list-style: none;
+}
+.header {
+    width: 100%;
+}
+.header__nav-minor {
+    justify-content: end;
+}
+.header__nav-main {
+    justify-content: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column
+}
 .header__menu {
     display: none;
 }
